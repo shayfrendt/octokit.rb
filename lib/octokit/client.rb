@@ -75,6 +75,7 @@ module Octokit
     include Octokit::Client::Commits
     include Octokit::Client::CommitComments
     include Octokit::Client::CommunityProfile
+    include Octokit::Client::ContentAttachments
     include Octokit::Client::Contents
     include Octokit::Client::Deployments
     include Octokit::Client::Downloads
