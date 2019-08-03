@@ -18,7 +18,7 @@ module Octokit
       #   attachment.title # => "The call of the Octocat"
       #   attachment.body  # => "This book began as a..."
       def create_content_attachment(content_reference_id, title, body, options = {})
-        params - {
+        params = {
           :title => title,
           :body => body
         }
